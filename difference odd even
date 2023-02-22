@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+	int n,i,diff,even,odd;
+	printf("enter n values");
+	scanf("%d",&n);
+	while(i<=n)
+	{
+		if(i=i+2)
+		printf("even");
+		else
+		if(i=i+1)
+		printf("odd");
+	}
+	diff=even-odd;
+	printf("%d\n",diff);
+}
